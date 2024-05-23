@@ -1,0 +1,79 @@
+/* main  */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 60px 40px;
+gap: 70px;
+<img src="alura geek/Logo.svg">
+        <img src="alura geek/unsplash_6FDXGY9J6y4.svg">
+width: 1380px;
+height: 1235px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* main  */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 60px 40px;
+gap: 70px;
+
+width: 1380px;
+height: 1235px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 0px;
+
+width: 1440px;
+height: 96px;
+
+background: #5300C8;
+box-shadow: 0px 7px 0.9px rgba(0, 0, 0, 0.25);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+img.pequeña{
+  width: 50px;
+  height: 50px;
+}
+img.mediana{
+  width: 100px;
+  height: 100px;
+}
+img.grande{
+  width: 160px;
+  height: 250px;
+}
+
+img.banner{
+  width: 1040px;
+  height: 200px;
+}
